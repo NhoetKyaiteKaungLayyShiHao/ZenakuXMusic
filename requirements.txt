@@ -17,7 +17,6 @@ pykeyboard
 pyrogram==2.0.106
 python-dotenv
 pyyaml
-git+https://github.com/KurimuzonAkuma/pyrogram@feff7cd29dd08c968710f770eb8850ea97d609fa
 requests
 speedtest-cli
 spotipy
@@ -27,8 +26,8 @@ unidecode
 yt-dlp
 youtube-search
 youtube-search-python
+git+https://github.com/alexmercerind/youtube-search-python@main
+git+https://github.com/joetats/youtube_search@master
 telethon==1.24.0
 flask
 flask_restful
-git+https://github.com/alexmercerind/youtube-search-python@main
-git+https://github.com/joetats/youtube_search@master
