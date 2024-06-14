@@ -47,6 +47,16 @@
         "value": "",
         "required": false
       },
+        "AUTO_GCAST": {
+        "description": "Fill here [True] for on auto gcast/broadcast message, (Leave Blank This Field & skip To Disbale Auto Gcast/Broadcast.)",
+        "value": "True",
+        "required": false
+      },
+        "AUTO_GCAST_MSG": {
+        "description": "Fill here auto broadcast message which will be auto broadcast twice in a day. ( any type of message you can copy and paste here )",
+        "value": "",
+        "required": false
+      }, 
       "HEROKU_APP_NAME": {
         "description": "Your heroku app name",
         "value": "",
