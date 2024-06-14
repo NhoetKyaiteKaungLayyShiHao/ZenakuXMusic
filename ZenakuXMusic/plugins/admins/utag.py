@@ -2,7 +2,7 @@ import asyncio
 import random
 from pyrogram import Client, filters
 from pyrogram.enums import ChatType
-from pyrogram.enums import ChatType, ChatMemberStatus
+from pyrogram.enums import ChatType, ChatAdministratorsStatus
 from pyrogram.errors import UserNotParticipant
 from pyrogram.types import ChatPermissions
 from ZenakuXMusic import app
@@ -12,7 +12,7 @@ SPAM_CHATS = {}
 
 
 @app.on_message(
-    filters.command(["utag", "uall"], prefixes=["/", "@", ".", "#"]) & admin_filter
+    filters.command(["admin"], prefixes=["@", "."]) & admin_filter
 )
 async def tag_all_users(_, message):
     global SPAM_CHATS
@@ -38,7 +38,7 @@ async def tag_all_users(_, message):
         usernum = 0
         usertxt = ""
         try:
-            async for m in app.get_chat_members(message.chat.id):
+            async for m in app.get_chat_administrators(message.chat.id):
                 if m.user.is_bot:
                     continue
                 usernum += 1
@@ -57,8 +57,8 @@ async def tag_all_users(_, message):
 
 @app.on_message(
     filters.command(
-        ["stoputag", "stopuall", "offutag", "offuall", "utagoff", "ualloff"],
-        prefixes=["/", ".", "@", "#"],
+        ["stopall", "cancel"],
+        prefixes=["/", ".", "@"],
     )
     & admin_filter
 )
