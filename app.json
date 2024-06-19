@@ -1,12 +1,12 @@
 {
-    "name": "Nԋσҽƚ Kყαιƚҽ Kαυɳɠ Lαყყ Mυʂιƈ",
+    "name": "ꜱᴀꜱᴜᴋᴇ ✘ ᴍᴜꜱɪᴄ",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://te.legra.ph/file/ab427471fb663d2c5f219.jpg",
+    "logo": "https://te.legra.ph/file/f9f1fbe839e712cd6e667.jpg",
     "keywords": [
     "python3",
     "telegram",
     "bot",
-    "AnonX",
+    "VIP",
     "MusicBot",
     "telegram-bot",
     "pyrogram"
@@ -27,6 +27,11 @@
         "value": "",
         "required": true
       },
+      "EXTRA_PLUGINS": {
+        "description": "if You want to load extra plugins with music plugins so fill True  if you don't want to load extra plugins so Fill False",
+        "value": "True",
+        "required": false
+      },
       "MONGO_DB_URI": {
         "description": "Get a mongodb url from https://cloud.mongodb.com.",
         "value": "",
@@ -34,7 +39,7 @@
       },
       "OWNER_ID": {
         "description": "The user id of user whom you would like to add as OWNER.",
-        "value": "",
+        "value": "1318826936",
         "required": true
       },
       "STRING_SESSION": {
@@ -47,23 +52,28 @@
         "value": "",
         "required": false
       },
-        "AUTO_GCAST": {
-        "description": "Fill here [True] for on auto gcast/broadcast message, (Leave Blank This Field & skip To Disbale Auto Gcast/Broadcast.)",
-        "value": "True",
-        "required": false
-      },
-        "AUTO_GCAST_MSG": {
-        "description": "Fill here auto broadcast message which will be auto broadcast twice in a day. ( any type of message you can copy and paste here )",
+      "HEROKU_APP_NAME": {
+        "description": "Your Heroku account's App name.",
         "value": "",
         "required": false
-      }, 
-      "HEROKU_APP_NAME": {
-        "description": "Your heroku app name",
+      },
+      "AUTO_GCAST": {
+        "description": "𝐅𝐈𝐋𝐋 𝐇𝐄𝐑𝐄:- [On/Off] 𝐅𝐎𝐑 On/Off 𝐀𝐔𝐓𝐎 𝐆𝐂𝐀𝐒𝐓/𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓 𝐌𝐄𝐒𝐒𝐀𝐆𝐄.",
+        "value": "",
+        "required": false
+      },
+      "AUTO_GCAST_MSG": {
+        "description": "𝐅𝐈𝐋𝐋 𝐇𝐄𝐑𝐄 𝐀𝐔𝐓𝐎 𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓 𝐌𝐄𝐒𝐒𝐀𝐆𝐄 𝐖𝐇𝐈𝐂𝐇 𝐖𝐈𝐋𝐋 𝐁𝐄 𝐀𝐔𝐓𝐎 𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓𝐄𝐃 𝐓𝐖𝐈𝐂𝐄 𝐈𝐍 𝐀 𝐃𝐀𝐘. ( 𝐀𝐍𝐘 𝐓𝐘𝐏𝐄 𝐎𝐅 𝐌𝐄𝐒𝐒𝐀𝐆𝐄 𝐘𝐎𝐔 𝐂𝐀𝐍 𝐂𝐎𝐏𝐘 𝐀𝐍𝐃 𝐏𝐀𝐒𝐓𝐄 𝐇𝐄𝐑𝐄 )",
+        "value": "",
+        "required": false
+      },
+      "START_IMG_URL": {
+        "description": "𝐅𝐈𝐋𝐋 𝐇𝐄𝐑𝐄 𝐘𝐎𝐔𝐑 𝐒𝐓𝐀𝐑𝐓 𝐁𝐎𝐓 𝐈𝐌𝐀𝐆𝐄 𝐔𝐑𝐋, 𝐆𝐄𝐓 𝐈𝐓 𝐅𝐑𝐎𝐌 ;- t.me/vTelegraphBot",
         "value": "",
         "required": false
       },
       "LOGGER_ID": {
-        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
+        "description": "𝐅𝐈𝐋𝐋 𝐇𝐄𝐑𝐄 𝐋𝐎𝐆 𝐆𝐑𝐎𝐔𝐏 𝐈𝐃 𝐖𝐇𝐄𝐑𝐄 𝐘𝐎𝐔𝐑 𝐁𝐎𝐓 𝐀𝐋𝐖𝐀𝐘𝐒 𝐒𝐓𝐀𝐘 𝐀𝐃𝐌𝐈𝐍 (𝐈𝐃 𝐌𝐔𝐒𝐓 𝐒𝐓𝐀𝐑𝐓𝐄𝐃 𝐖𝐈𝐓𝐇 -100).",
         "value": "",
         "required": true
       }
@@ -79,5 +89,11 @@
               "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
           }
       ],
+      "formation": {
+          "worker": {
+              "quantity": 1,
+              "size": "basic"
+          }
+      },
       "stack": "container"
   }
