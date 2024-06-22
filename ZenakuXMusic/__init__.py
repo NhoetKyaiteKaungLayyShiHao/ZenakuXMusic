@@ -23,3 +23,5 @@ Spotify = SpotifyAPI()
 Resso = RessoAPI()
 Telegram = TeleAPI()
 YouTube = YouTubeAPI()
+
+APP = "sasukexmusic_bot"
