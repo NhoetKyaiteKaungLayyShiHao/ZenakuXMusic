@@ -14,12 +14,12 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "26176538",
+        "value": "23138949",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "81a174c22cfe145eeaf98282e4f26d50",
+        "value": "70d1a383ec5a4d99bdc33f2903b9608c",
         "required": true
       },
       "BOT_TOKEN": {
@@ -39,7 +39,7 @@
       },
       "STRING_SESSION": {
         "description": "A Pyrogram v2 String Session from @StringFatherBot on Telegram.",
-        "value": "AQGXyHkACg44vjBn5teg4YoR8vN2PhPkde1BsYDV3xnim-IfvI_8VQrQhw-12nxA27oapoBzSN44yS2i-nokT7tgpuaPRetTlGPwcOFHZjC8y1x54GHCkF6ZOwCINzNu0E3b3K26yDFLHmIqeQKlCRMFf8FJaC4PO5rgyyzbTa6z-dP7pMnc8AWUK_2M_ELkq6JNMLRyZM1reLYRYXYrcEIlAczJajaADMOrc2ra2L8Bj7VMNpA-yg69JyeOmubIgtgIJa65U1RToxhJ06fUVMINoB1-9bZk6bQ7oTNH8uNYqvoRrk0hpyAG49FFOgYgmCZboqxTFAkGoj77oUeWGiyrvkq63AAAAAGX6er3AA",
+        "value": "BQGXyHkAKf_VIzNQxw3HQlJJj_JoDdAzl_cHad6ZpgFcZqxVFJ9M6G2frUClGp1hKw5CKRFIZDSo-1g3gCnO67VXJAuLvTDeCIHvMQfPLGL6EkXLC_NHtwh3PiviUoqh_v6F_O0XjwGcb2Dg2OjN8j7nBIp5H2N0vWoYbeCSMoCZ6krwZREdPWeWjZtq_EFskNyBp6Y8pzl2if2Fj8RElGP6GycjgRssEkfkxpW6N_OdzQzZxgiWKC5hx4vbuQsN0pltcx1T2EMa67xYxNshedHdPUPaCvZT63w5VPvNjmW4_sQZEWoccwtdN1PerR8cdeeR6o_aIztcvTA-SVTBspe-Y7MPHAAAAAFbDvGCAA",
         "required": true
       },
       "HEROKU_API_KEY": {
@@ -54,7 +54,7 @@
       },
       "LOGGER_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
-        "value": "-1002122496259",
+        "value": "-1001558698407",
         "required": true
       }
     },
