@@ -60,13 +60,13 @@
     },
     "buildpacks": [
           {
-              "url": "heroku/python"
+              "url": "render/python"
           },
           {
-              "url": "heroku/nodejs"
+              "url": "render/nodejs"
           },
           {
-              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+              "url": "https://github.com/jonathanong/render-buildpack-ffmpeg-latest.git"
           }
       ],
       "stack": "container"
