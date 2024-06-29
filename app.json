@@ -14,12 +14,12 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "23138949",
+        "value": "",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "70d1a383ec5a4d99bdc33f2903b9608c",
+        "value": "",
         "required": true
       },
       "BOT_TOKEN": {
@@ -39,7 +39,7 @@
       },
       "STRING_SESSION": {
         "description": "A Pyrogram v2 String Session from @StringFatherBot on Telegram.",
-        "value": "BQGXyHkAKf_VIzNQxw3HQlJJj_JoDdAzl_cHad6ZpgFcZqxVFJ9M6G2frUClGp1hKw5CKRFIZDSo-1g3gCnO67VXJAuLvTDeCIHvMQfPLGL6EkXLC_NHtwh3PiviUoqh_v6F_O0XjwGcb2Dg2OjN8j7nBIp5H2N0vWoYbeCSMoCZ6krwZREdPWeWjZtq_EFskNyBp6Y8pzl2if2Fj8RElGP6GycjgRssEkfkxpW6N_OdzQzZxgiWKC5hx4vbuQsN0pltcx1T2EMa67xYxNshedHdPUPaCvZT63w5VPvNjmW4_sQZEWoccwtdN1PerR8cdeeR6o_aIztcvTA-SVTBspe-Y7MPHAAAAAFbDvGCAA",
+        "value": "",
         "required": true
       },
       "HEROKU_API_KEY": {
