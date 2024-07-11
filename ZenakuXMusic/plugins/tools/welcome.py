@@ -31,7 +31,7 @@ class temp:
     U_NAME = None
     B_NAME = None
 
-def circle(pfp, size=(500, 500)):
+def circle(pfp, size=(700, 700)):
     pfp = pfp.resize(size, Image.LANCZOS).convert("RGBA")
     bigsize = (pfp.size[0] * 3, pfp.size[1] * 3)
     mask = Image.new("L", bigsize, 0)
@@ -96,7 +96,7 @@ async def greet_group(_, member: ChatMemberUpdated):
 ▰▰▰▰▰▰▰▰▰▰▰▰▰
 ❅─────✧❅✦❅✧─────❅
 """,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"💞 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ 💞", url=f"https://t.me/sasukexmusic_bot?startgroup=true")]])
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f" ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ", url=f"https://t.me/sasukevipmusicbot?startgroup=true")]])
         )
     except Exception as e:
         LOGGER.error(e)
