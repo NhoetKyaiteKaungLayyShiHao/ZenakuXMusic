@@ -92,7 +92,7 @@ async def get_thumb(videoid):
             color = "white"()
 
             data = np.array(im)
-            red, green, blue, alpha = data.T
+            white = data.T
 
             white_areas = (red == 255) & (blue == 255) & (green == 255)
             data[..., :-1][white_areas.T] = color
