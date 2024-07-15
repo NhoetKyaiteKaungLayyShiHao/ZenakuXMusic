@@ -43,7 +43,7 @@ def circle(pfp, size=(700, 700)):
     return pfp
 
 def welcomepic(pic, user, chatname, id, uname):
-    background = Image.open("Zenaku5GenX-Music/assets/dil.png")
+    background = Image.open("ZenakuXMusic/assets/ZenakuXMusic12.png")
     pfp = Image.open(pic).convert("RGBA")
     pfp = circle(pfp)
     pfp = pfp.resize((1157, 1158))
@@ -74,7 +74,7 @@ async def greet_group(_, member: ChatMemberUpdated):
             user.photo.big_file_id, file_name=f"pp{user.id}.png"
         )
     except AttributeError:
-        pic = "ZenakuXMusic/assets/ZenakuXMusic12.png"
+        pic = "ZenakuXMusic/assets/upic.png"
     if (temp.MELCOW).get(f"welcome-{member.chat.id}") is not None:
         try:
             await temp.MELCOW[f"welcome-{member.chat.id}"].delete()
