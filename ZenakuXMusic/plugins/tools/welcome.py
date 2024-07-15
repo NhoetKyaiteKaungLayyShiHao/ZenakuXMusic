@@ -90,13 +90,12 @@ async def greet_group(_, member: ChatMemberUpdated):
             caption=f"""
 ❅────✦ ᴡᴇʟᴄᴏᴍᴇ ✦────❅
 ▰▰▰▰▰▰▰▰▰▰▰▰▰
-๏ Cԋαƚ Nαɱҽ ➠ {member.chat.title}
-๏ Nαɱҽ ➠ {user.mention}
-๏ Iԃ ➠ {user.id}
-๏ Uʂҽɾɳαɱҽ ➠ @{user.username}
-๏ MαԃҽႦყ ➠ @NhoeKyaiteKaungLayy
+๏ Cԋαƚ Nαɱҽ ✧ {member.chat.title}
+๏ Nαɱҽ ✧ {user.mention}
+๏ Iԃ ✧ {user.id}
+๏ Uʂҽɾɳαɱҽ ✧ @{user.username}
 ▰▰▰▰▰▰▰▰▰▰▰▰▰
-❅─────✧❅✦❅✧─────❅
+❅─────✧✦✧─────❅
 """,
             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f" ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ", url=f"https://t.me/sasukevipmusicbot?startgroup=true")]])
         )
