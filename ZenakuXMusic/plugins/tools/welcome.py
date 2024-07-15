@@ -43,15 +43,17 @@ def circle(pfp, size=(700, 700)):
     return pfp
 
 def welcomepic(pic, user, chatname, id, uname):
-    background = Image.open("ZenakuXMusic/assets/ZenakuXMusic12.png")
+    background = Image.open("Zenaku5GenX-Music/assets/dil.png")
     pfp = Image.open(pic).convert("RGBA")
     pfp = circle(pfp)
-    pfp = pfp.resize((825, 824))
+    pfp = pfp.resize((1157, 1158))
     draw = ImageDraw.Draw(background)
     font = ImageFont.truetype('ZenakuXMusic/assets/font.ttf', size=110)
     welcome_font = ImageFont.truetype('ZenakuXMusic/assets/font.ttf', size=60)
-    draw.text((2100, 1420), f'ID: {id}', fill=(12000, 12000, 12000), font=font)
-    pfp_position = (1990, 435)
+    draw.text((1800, 700), f'NAME: {user}', fill=(255, 255, 255), font=font)
+    draw.text((1800, 830), f'ID: {id}', fill=(255, 255, 255), font=font)
+    draw.text((1800, 965), f"USERNAME : {uname}", fill=(255, 255, 255), font=font)
+    pfp_position = (391, 336)
     background.paste(pfp, pfp_position, pfp)
     background.save(f"downloads/welcome#{id}.png")
     return f"downloads/welcome#{id}.png"
