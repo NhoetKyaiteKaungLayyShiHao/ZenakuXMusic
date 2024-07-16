@@ -112,8 +112,8 @@ async def get_thumb(videoid):
     title_font = ImageFont.truetype("ZenakuXMusic/assets/assets/font3.ttf", 45)
 
 
-    circle_thumbnail = crop_center_circle(youtube, 700, 20)
-    circle_thumbnail = circle_thumbnail.resize((700, 700))
+    circle_thumbnail = crop_center_circle(youtube, 450, 20)
+    circle_thumbnail = circle_thumbnail.resize((450, 450))
     circle_position = (120, 160)
     background.paste(circle_thumbnail, circle_position, circle_thumbnail)
 
