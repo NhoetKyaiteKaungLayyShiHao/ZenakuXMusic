@@ -119,8 +119,8 @@ async def get_thumb(videoid):
 
     text_x_position = 565
 
-    image3 = ImageDraw.Draw(image2)
-            image3.text((10, 10), "「 ꜱᴀꜱᴜᴋᴇ ✘ ᴍᴜꜱɪᴄ 」", fill="white", font = font1, align ="right") 
+    image4 = ImageDraw.Draw(image2)
+            image4.text((10, 10), "「 ꜱᴀꜱᴜᴋᴇ ✘ ᴍᴜꜱɪᴄ 」", fill="white", font = font1, align ="left") 
 
     title1 = truncate(title)
     draw.text((text_x_position, 180), title1[0], fill=(255, 255, 255), font=title_font)
