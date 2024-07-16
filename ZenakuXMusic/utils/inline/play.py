@@ -54,15 +54,15 @@ def stream_markup_timer(_, chat_id, played, dur):
         bar = "—————————◉"
     buttons = [
         [
-            InlineKeyboardButton(text="▷ ʀᴇꜱᴜᴍᴇ", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="II ᴘᴀᴜꜱᴇ", callback_data=f"ADMIN Pause|{chat_id}"),
-            InlineKeyboardButton(text="ꜱᴋɪᴘ ‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
-        ],
-        [
             InlineKeyboardButton(
                 text=f"{played} {bar} {dur}",
                 callback_data="GetTimer",
             )
+        ],
+        [
+            InlineKeyboardButton(text="▷ ʀᴇꜱᴜᴍᴇ", callback_data=f"ADMIN Resume|{chat_id}"),
+            InlineKeyboardButton(text="II ᴘᴀᴜꜱᴇ", callback_data=f"ADMIN Pause|{chat_id}"),
+            InlineKeyboardButton(text="ꜱᴋɪᴘ ‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
         ],
         [
             InlineKeyboardButton(text="▢ ꜱᴛᴏᴘ", callback_data=f"ADMIN Stop|{chat_id}"),
@@ -78,15 +78,15 @@ def stream_markup_timer(_, chat_id, played, dur):
 def stream_markup(_, chat_id):
     buttons = [
         [
-            InlineKeyboardButton(text="▷ ʀᴇꜱᴜᴍᴇ", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="II ᴘᴀᴜꜱᴇ", callback_data=f"ADMIN Pause|{chat_id}"),
-            InlineKeyboardButton(text="ꜱᴋɪᴘ ‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
-        ],
-        [
             InlineKeyboardButton(
                 text=f"{played} {bar} {dur}",
                 callback_data="GetTimer",
             )
+        ],
+        [
+            InlineKeyboardButton(text="▷ ʀᴇꜱᴜᴍᴇ", callback_data=f"ADMIN Resume|{chat_id}"),
+            InlineKeyboardButton(text="II ᴘᴀᴜꜱᴇ", callback_data=f"ADMIN Pause|{chat_id}"),
+            InlineKeyboardButton(text="ꜱᴋɪᴘ ‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
         ],
         [
             InlineKeyboardButton(text="▢ ꜱᴛᴏᴘ", callback_data=f"ADMIN Stop|{chat_id}"),
