@@ -8,6 +8,7 @@ ffmpeg-python
 gitpython
 hachoir
 heroku3
+koyeb==latest
 motor
 pillow
 psutil
