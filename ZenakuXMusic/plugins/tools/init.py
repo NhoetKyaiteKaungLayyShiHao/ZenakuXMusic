@@ -1,8 +1,8 @@
 import asyncio
 
 import config
-from ZeNaKuXMusic import app
-from ZeNaKuXMusic.utils.database import get_assistant
+from ZenakuXMusic import app
+from ZenakuXMusic.utils.database import get_assistant
 
 AUTO = True
 
