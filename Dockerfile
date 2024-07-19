@@ -6,7 +6,7 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/*
 
 COPY . /app/
-WORKDIR /app/
+WEBDIR /app/
 RUN pip3 install --no-cache-dir -U -r requirements.txt
 
 CMD bash start
