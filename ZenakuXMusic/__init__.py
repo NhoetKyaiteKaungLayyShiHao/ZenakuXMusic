@@ -2,7 +2,7 @@ from ZenakuXMusic.core.bot import Anony
 from ZenakuXMusic.core.dir import dirr
 from ZenakuXMusic.core.git import git
 from ZenakuXMusic.core.userbot import Userbot
-from ZenakuXMusic.misc import dbb, heroku, koyeb
+from ZenakuXMusic.misc import dbb, heroku
 
 from .logging import LOGGER
 
@@ -10,7 +10,6 @@ dirr()
 git()
 dbb()
 heroku()
-koyeb()
 
 app = Anony()
 userbot = Userbot()
